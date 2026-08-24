@@ -1,0 +1,46 @@
+{
+  "name": "@umer/use-force-update",
+  "version": "1.0.0",
+  "description": "React Native hook for checking and prompting app updates. Backend-agnostic.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "force-update",
+    "app-update",
+    "version-check"
+  ],
+  "author": "Muhammad Umer",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-native": "^0.60.0 || ^0.70.0 || ^0.71.0",
+    "expo-constants": "^13.0.0 || ^14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.70.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MohammadUmer526/expo-app-force-update.git"
+  }
+}
