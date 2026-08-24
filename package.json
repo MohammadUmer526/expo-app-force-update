@@ -1,5 +1,5 @@
 {
-  "name": "@umer/use-force-update",
+  "name": "expo-app-force-update",
   "version": "1.0.0",
   "description": "React Native hook for checking and prompting app updates. Backend-agnostic.",
   "main": "dist/index.js",
