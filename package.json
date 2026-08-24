@@ -1,6 +1,6 @@
 {
   "name": "expo-app-force-update",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native hook for checking and prompting app updates. Backend-agnostic.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
